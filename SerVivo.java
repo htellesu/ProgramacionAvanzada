@@ -1,4 +1,4 @@
-public class SerVivo{
+public abstract class SerVivo{
 	private int edad;
 	private char genero;
 	private String nombre;
@@ -9,9 +9,7 @@ public class SerVivo{
 		this.especie = especie;
 		this.nombre = nombre;
 	}
-	public void respirar(){
-		System.out.println("ESTOY RESPIRANDO");
-	}
+	public abstract void respirar();
 	public int getEdad(){
 		return edad;
 	}

@@ -5,6 +5,9 @@ public class Persona extends SerVivo implements Trabajar{
 		super(edad, genero, "Homo Sapiens Sapiens", nombre);
 		this.salario = salario;
 	}
+	public void respirar(){
+		System.out.println("Estoy respirando");
+	}
 	public void caminar(){
 		System.out.println("ESTOY CAMINANDO");
 	}
