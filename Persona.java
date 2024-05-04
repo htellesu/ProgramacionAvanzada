@@ -1,22 +1,20 @@
-public class Persona{
+public class Persona extends SerVivo implements Trabajar{
 	//metodos y clases public - atributos private
-	private int edad;
-	private String nombre;
-	private char genero;
-	private int estatura;
-	public Persona(){
-		edad = 8;
-		nombre = "luis";
-		genero = 'M';
-		estatura = 168;
+	private int salario;
+	public Persona(int salario, char genero, String nombre, int edad){
+		super(edad, genero, "Homo Sapiens Sapiens", nombre);
+		this.salario = salario;
 	}
 	public void caminar(){
 		System.out.println("ESTOY CAMINANDO");
 	}
-	public void setEdad(int recibe){
-		edad = recibe;
+	public void caminar(int km){
+		System.out.println("Hoy amaneci animado y camine " + km + " kilometros");
 	}
-	public int getEdad(){
-		return edad;
-	}
+	public void trabajar(){
+		System.out.println("Estoy trabajando");
+	};
+	public int descansar(){
+		return 1;
+	};
 }
