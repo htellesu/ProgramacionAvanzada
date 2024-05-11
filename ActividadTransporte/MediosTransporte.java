@@ -25,7 +25,7 @@ public abstract class MediosTransporte{
 		return mercancia;
 	}	
 	//metodos abstractos - metodo general
-	public abstract void MediosDesplazamiento();  //metodo del medio de desplazamiento
+	public abstract void mediosDesplazamiento();  //metodo del medio de desplazamiento
 	public void movimiento(){
 		System.out.println("Nos estamos desplazando........!");
 	}

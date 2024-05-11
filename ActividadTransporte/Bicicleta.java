@@ -7,7 +7,7 @@ public class Bicicleta extends Terrestre{
 	public void recorrer(){
 		System.out.println("la bicicleta esta en movimiento");
 	}
-	public void MediosDesplazamiento(){
+	public void mediosDesplazamiento(){
 		recorrer();
 	}
 }

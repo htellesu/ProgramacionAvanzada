@@ -7,7 +7,7 @@ public class Buque extends Maritimo{
 	public void navegar(){
 		System.out.println("el buque esta navegando");
 	}
-	public void MediosDesplazamiento(){
+	public void mediosDesplazamiento(){
 		navegar();
 	}
 }
