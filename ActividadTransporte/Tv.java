@@ -6,13 +6,6 @@ public class Tv extends DispoElectronico{
 		super(marca, "Digital", "1 Gb");
 		this.tamaño = tamaño;
 		this.calidadImagen = calidadImagen; 
-	}
-	
-	public void encendido(){
-		System.out.println("El Tv esta encendido...…….!");
-	}
-	public void conectado(){
-		System.out.println("El Tv esta encendido...…….!");
 	}	
 
 	public float getTamaño(){

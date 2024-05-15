@@ -1,4 +1,4 @@
-public class Avion extends Aereo{
+public class Avion extends Aereo implements Interfaz{
 	private DispoElectronico dispoElectronico;
 	
 	Avion(String fabricante, String modelo, boolean pasajeros, boolean mercancia, DispoElectronico dispoElectronico){
@@ -9,7 +9,10 @@ public class Avion extends Aereo{
 	public void volar(){
 		System.out.println("El avión esta volando");
 	}
-	
+	public void recorrer(){
+	}	
+	public void navegar(){
+	}
 	public void mediosDesplazamiento(){
 		volar();
 		dispoElectronico.encendido();

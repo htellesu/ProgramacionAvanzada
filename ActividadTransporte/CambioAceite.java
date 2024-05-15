@@ -1,4 +1,4 @@
 public interface CambioAceite{
-	void cambiarAceite();
-	void VerificarNivelAceite();
+	public void cambiarAceite();
+	public void verificarNivelAceite();
 }

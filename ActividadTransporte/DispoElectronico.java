@@ -9,8 +9,18 @@ public abstract class DispoElectronico{
 		this.memoria = memoria;
 	}
 	
-	public abstract void encendido();
-	public abstract void conectado();
+	//public abstract void encendido();
+	//public abstract void conectado();
+	public void conectado(){
+		System.out.println("El Tv esta encendido...…….!");
+	}
+	public void encendido(){
+		System.out.println("El TV esta encendido..!");
+	}
+	public void apagado(){
+		System.out.println("El TV esta apagado..!");
+	}
+
 
 	public String getMarca(){
 		return marca;

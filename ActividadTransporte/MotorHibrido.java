@@ -1,4 +1,4 @@
-public abstract class MotorHibrido extends Motor implements CambioAceite{
+public class MotorHibrido extends Motor implements CambioAceite{
 	private int capBateria;
 	private String combustible;
 	private double nivelAceite;
@@ -18,7 +18,7 @@ public abstract class MotorHibrido extends Motor implements CambioAceite{
 		System.out.println("Motor Hibrido apagado.");
 	}
 
-	public void CambiarAceite(){
+	public void cambiarAceite(){
 		System.out.println("Cambiando aceite del motor");
 		nivelAceite = 100.0; //porcentaje de aceite
 	}

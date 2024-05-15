@@ -8,7 +8,6 @@ public class Aceite{
 		this.marca = marca;
 		this.cantidad = cantidad;	
 	}
-
 	//contructores
 	public String getTipo(){
 		return tipo;
