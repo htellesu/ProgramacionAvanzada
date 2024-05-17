@@ -7,3 +7,5 @@ Servidor: por que
 Cliente: se logro :D
 Cliente: hola
 Servidor: como estas
+Cliente: ya esta la cancion?
+Servidor: sip

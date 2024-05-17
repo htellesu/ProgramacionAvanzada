@@ -11,7 +11,7 @@ public class AudioClip implements Runnable{
     @Override
     public void run(){
         try{
-             InputStream inputStream = new BufferedInputStream(new FileInputStream("Electronica.wav"));
+             InputStream inputStream = new BufferedInputStream(new FileInputStream("Reggae.wav"));
              AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(inputStream);
              AudioFormat audioFormat = audioInputStream.getFormat();
              DataLine.Info info = new DataLine.Info(Clip.class, audioFormat);
