@@ -1,0 +1,9 @@
+Cliente: hola
+Servidor: como estas
+Cliente: hola
+Servidor: como estas?
+Cliente: bien
+Servidor: por que
+Cliente: se logro :D
+Cliente: hola
+Servidor: como estas
