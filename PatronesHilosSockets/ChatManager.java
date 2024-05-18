@@ -1,3 +1,4 @@
+//Maneja el chat entre un servidor y un cliente utilizando sockets. También crea interfaces gráficas (GUI) para la interacción del servidor y el cliente, y guarda el historial del chat en archivos de texto.
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

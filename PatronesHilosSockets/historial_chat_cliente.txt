@@ -9,3 +9,11 @@ Cliente: hola
 Servidor: como estas
 Cliente: ya esta la cancion?
 Servidor: sip
+Cliente: va de nuevo
+Servidor: *****
+Cliente: hola
+Servidor: bien
+Cliente: ye me puedo ir a dormir
+Servidor: si
+Cliente: hola
+Servidor: ya casi

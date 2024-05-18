@@ -1,3 +1,4 @@
+//Reproduce un archivo de audio en un hilo separado. Utiliza la clase Clip de Java Sound API para manejar la reproducción de audio.
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
