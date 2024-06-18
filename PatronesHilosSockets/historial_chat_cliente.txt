@@ -17,3 +17,7 @@ Cliente: ye me puedo ir a dormir
 Servidor: si
 Cliente: hola
 Servidor: ya casi
+Cliente: hola
+Servidor: bien
+Cliente: hola
+Servidor: bien
