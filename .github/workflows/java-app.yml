@@ -23,8 +23,10 @@ jobs:
 
     - name: Compile and run
       run: |
+        ls
         cd excepciones
         ls
         javac AudioFileNotFoundException.java UnsupportedAudioFormatException.java AudioPlaybackException.java AudioClip.java
         java AudioClip
+
 
