@@ -18,5 +18,5 @@ jobs:
 
     - name: Compile and run
       run: |
-        javac KeywordException.java CharacterException.java SymbolException.java Main.java
-        java Main
+        javac AudioFileNotFoundException.java UnsupportedAudioFormatException.java AudioPlaybackException.java AudioClip.java
+        java AudioClip
