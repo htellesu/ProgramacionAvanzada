@@ -24,9 +24,10 @@ jobs:
     - name: Compile and run
       run: |
         ls
-        cd excepciones
+        cd Excepciones  # Asegúrate de que el nombre del directorio es correcto
         ls
         javac AudioFileNotFoundException.java UnsupportedAudioFormatException.java AudioPlaybackException.java AudioClip.java
         java AudioClip
+
 
 
